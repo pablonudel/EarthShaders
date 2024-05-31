@@ -130,7 +130,7 @@ const debugSun = new THREE.Mesh(
 		color: new THREE.Color("#fffff0"),
 	})
 )
-// scene.add(debugSun)
+// scene.add(debugSun)git
 
 // Lens flare
 const lensFlare = new Lensflare()
