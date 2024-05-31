@@ -1,16 +1,7 @@
-# Three.js Journey
+# Earth Shaders
 
-## Setup
-Download [Node.js](https://nodejs.org/en/download/).
-Run this followed commands:
+- Dark / Night Textures
+- Sun reflection
+- Twilight and volumetric atmosphere
 
-``` bash
-# Install dependencies (only the first time)
-npm install
-
-# Run the local server at localhost:8080
-npm run dev
-
-# Build for production in the dist/ directory
-npm run build
-```
+Lesson as part of the [Three.Js Journey](https://threejs-journey.com/) course.
