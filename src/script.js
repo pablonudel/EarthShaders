@@ -24,6 +24,17 @@ const scene = new THREE.Scene()
 const textureLoader = new THREE.TextureLoader()
 
 /**
+ * Cursor
+ */
+window.addEventListener("pointerdown", () => {
+	document.querySelector("body").style.cursor = "grabbing"
+})
+
+window.addEventListener("pointerup", () => {
+	document.querySelector("body").style.cursor = "grab"
+})
+
+/**
  * Earth
  */
 const earthParameters = {}
@@ -130,7 +141,7 @@ const debugSun = new THREE.Mesh(
 		color: new THREE.Color("#fffff0"),
 	})
 )
-// scene.add(debugSun)git
+// scene.add(debugSun)
 
 // Lens flare
 const lensFlare = new Lensflare()
